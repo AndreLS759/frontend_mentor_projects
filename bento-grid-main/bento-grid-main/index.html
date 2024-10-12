@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Bento grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    header{
+      background-color: antiquewhite;
+      padding: 50px;
+    }
+    .grid-container{
+      display: grid;
+      grid-template-columns: auto;
+      font-size: 45px;
+      font-family:"DM Sans", sans-serif;
+      text-align: center;
+      padding: 15px;
+      gap: 25px;
+    }
+    .item1{
+      background-color: hsl(256, 67%, 59%);
+      color: aliceblue;
+      grid-column: 1 / 1;
+      border-radius: 7px;
+      height: 200px;
+      width: 400px;
+      padding: 15px;
+    }
+
+    .subtitle{
+      font-size: 15px;
+      margin-top: -13px;
+    }
+
+    .item2{
+      background-color: white;
+      font-size: 25px;
+      height: 220px;
+      width: 185px;
+      text-align: left;
+      grid-column: 2/2;
+      padding: 10px;
+      border-radius: 7px;
+    }
+
+    .item3{
+      background-color: hsl(39, 100%, 71%);
+      height: 200px;
+      width: 200px;
+      border-radius: 7px;
+      font-size: 25px;
+      overflow: hidden;
+      text-align: left;
+      padding: 20px;
+      grid-column: 3/ 3;
+    }
+
+    .item4{
+      background-color: hsl(254, 88%, 90%);
+      height: 425px;
+      width: 150px;
+      grid-column: 4/4;
+      text-align: left;
+      font-size: 24px;
+      padding: 25px;
+      border-radius: 7px;
+      overflow: hidden;
+      gap: 12px;
+    }
+
+    .item4 img{
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .subtitle2{
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .item5{
+      background-color: hsl(256, 67%, 59%);
+      padding: 15px;
+      border-radius: 7px;
+      height: 150px;
+      width: 380px;
+      grid-column: 5/5;
+    }
+    .grow{
+      color: white;
+      font-size: 27px;
+      margin-left: 190px;
+      margin-top: -130px;
+      width: 200px;
+      text-align: left;
+      line-height: 0.9;
+    }
+
+    .item5 img{
+      padding: 10px;
+      margin-left: -200px;
+      margin-top: -9px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+
+    <div class="grid-container">
+    <div class="item1">
+      Social Media <span style="color: rgb(182, 164, 3);">10x </span> <i>Faster</i> with AI
+      <img src="./assets/images/illustration-five-stars.webp" alt="" width="250px">
+      <p class="subtitle">Over 4,000 5-star reviews</p>
+    </div>
+    
+    <div class="item2">
+      <img src="./assets/images/illustration-multiple-platforms.webp" alt="" width="200px">
+         <strong> Manage multiple accounts and platforms.</strong>
+
+    </div>
+
+    <div class="item3">
+       <strong>Maintain a consistent posting schedule.</strong>
+       <img src="./assets/images/illustration-consistent-schedule.webp" alt="" width="200px">
+    </div>
+
+    <div class="item4">
+      <strong>Schedule to social media.</strong>
+      <img src="./assets/images/illustration-schedule-posts.webp" alt="" width="250px" height="225px">
+      <p class="subtitle2"> <strong>Optimize post timings to publish content at the perfect time for your audience.</strong></p>
+    </div>
+  
+    <div class="item5">
+      <img src="./assets/images/illustration-grow-followers.webp" alt="" width="165px">
+      <p class="grow">Grow followers with non-stop content.</p>
+    </div>
+
+    <div class="item6">
+      >56% faster audience growth
+    </div>
+
+    <div class="item7">
+      Create and schedule content quicker.
+    </div>
+
+    <div class="item8">
+      Write your content using AI.
+    </div>
+
+  </div>
+  </header>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
